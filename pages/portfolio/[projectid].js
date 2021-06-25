@@ -12,7 +12,6 @@ function PortfolioProjectPage() {
 
   return (
     <div>
-      {router.query.projectid}
       <h1>The Portfolio Project Page</h1>
     </div>
   );
