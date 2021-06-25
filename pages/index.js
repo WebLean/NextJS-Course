@@ -1,19 +1,7 @@
-import Link from 'next/link';
-
 function HomePage() {
   return (
     <div>
-      <h1>The Home Page</h1>
-      <ul>
-        <li>
-          <Link replace href="/portfolio">
-            Portfolio
-          </Link>
-        </li>
-        <li>
-          <Link href="/clients">Clients</Link>
-        </li>
-      </ul>
+      <h1>Hompage</h1>
     </div>
   );
 }
