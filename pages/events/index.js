@@ -16,10 +16,10 @@ function AllEventsPage() {
   }
 
   return (
-    <div>
+    <Fragment>
       <EventSearch onSearch={findEventsHandler} />
       <EventList items={events}>All Events</EventList>
-    </div>
+    </Fragment>
   );
 }
 
