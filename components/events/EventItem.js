@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import classes from './EventItem.module.css';
 import Button from '../../ui/button';
-import DateIcon from '../icons/DateIcon';
-import AddressIcon from '../icons/AddressIcon';
+import DateIcon from '../icons/date-icon';
+import AddressIcon from '../icons/address-icon';
 import ArrowRightIcon from '../icons/ArrowRightIcon';
 
 function EventItem({ item }) {
